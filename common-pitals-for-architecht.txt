@@ -1,0 +1,36 @@
+1. The three types of power
+
+    Implicit Power - like CEO - you can say you should do this
+    Granted Power(informal power) -  everybody comes to for problems, for mentoring, training, issues
+    Personal Power - You ability to get back on your feet after you have suffered the setback.
+    
+    Problems 
+    1. Lead developer looses trust on solution architect. - you need to resolve it by involving him
+         Solutions
+             Empower your LD
+             Always present as united front
+             Be open to feedback
+             change architecture if needed(mostly avoid it but if it is really needed then do it)
+             
+    2. Functional Requirements are invalid
+      Symptoms - functional analyst Disengage with project.
+                  there might be a conflct between user representtative with functional analyst. You need to fix it other wise its gonna blame you, eventhough you are not a functional analyst.
+                  Solutions;
+                     Find the reason
+                     try to restore the personal power of FA
+                     Escalate up if needed(CTO or CEO)
+                    
+   3. Optimistic Planning
+        Project management makes a planning way too optimistics
+        Symptoms - QA disappears
+                  - LEad developer also will also become a developer, there will be no code review                     since there is not time, he also robbed of personal power                  
+                  - Project manager may not be able to understand the problem is caused by him
+        Solutions: here solution architect can step in and can solve by doing below things
+                  Bring the PM on the dev team
+                  Find the reason: optimistic PM, naive LD or slow devs?
+                  Coach LD / Restucture devs / Readjust schedule/ Alter planning
+   
+   4. Architecture role holds no power
+         Problem : They see you as a producer of documentation and there is no communication between you and LD and FA
+         Solution : you need to education CTO how important your communication really is. Become the owner of entire process.
+                  -
