@@ -1,0 +1,26 @@
+Great Architect Responsibilities
+  Insight
+  Leadership
+  Vision
+  Communication
+  
+1. Tradeoffs
+      you may need to compromise on which functional requirement can be done cannot be done.
+      if Fastrack deliveries 
+      
+2. Maintain control
+  You need to monitor the progress of the application and compare it with your architecture and       correct the path if there is any deviation.
+  
+ 3. Stay oncourse
+  people may add functionaly requirements when the project already start/ you need to know whether    these addons can be integrated into existing architecht and if not you need to be know when to      say no as well. 
+  
+ 4. Able to Explain the benefits of architecture - communication to your cto
+  
+ 5. Focus on Big Picture
+  You should be able to have a visiion of entire features of application toplevel view always.
+  
+ 6. Act as a Change Agent
+  maturity is not sufficient in the organisation. there may be not be QA or functional analyst you should educate organisation.
+  
+  
+  
