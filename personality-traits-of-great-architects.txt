@@ -1,0 +1,17 @@
+Traits
+
+1. Steadfastness
+   eventhough functional requirement change, technical implmentation completely not possble, budget cut, systems go offline you need to have a visiion and always ready for any setbacks and make sure you should go forward, stable and develop deliverable product.
+   
+2. Trustworthy
+   You need to be trust worthy, development needs to be trust, exucutives needs to be trust because all the technilogy decision is given to you. 
+   lots of reference projects you need to showcase to executives to trust, also you can try with credentials by writing exams and doing certificate.
+   Make sure your first release of your prodcut should be sccuess, it should perform, scalable e.t.c so people will trust you for further deliverables.
+   
+3. confident
+ You need to be very confident about your architecture, you cannot say that your archtechture may work or may not work we need to see untill implementation... e.t.c.
+
+4. Persuasive
+  if you can convince your discussion partner of your point of view.
+  people will ask you to deliver better, faster, cheaper e.t.c.. depends on the organisation capabilities.
+
