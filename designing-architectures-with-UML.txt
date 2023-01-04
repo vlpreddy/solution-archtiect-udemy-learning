@@ -1,0 +1,12 @@
+Solution Architecture Element         UML Diagram
+
+Structural elements, Composition      Class Diagram
+                                      Component diagram
+                                      
+Structural Elements, Collaboration    Sequence Diagram
+                                      Activity Diagram
+                                      State diagram
+                                      
+Areas of Concern                      Layer Diagram
+
+
