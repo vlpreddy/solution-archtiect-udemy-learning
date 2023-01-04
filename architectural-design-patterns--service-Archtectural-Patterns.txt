@@ -1,4 +1,4 @@
-liek rest api
+like rest api
 
 1. Service-Oriented pattern - data protocol is xml, communication protocol is soap, these calls go over http, enables thridparty communicates directly
      Discrete business services
@@ -6,4 +6,18 @@ liek rest api
      HTTP, XML, SOAP, binary, REST
      services are callable from the internet
  Pros - Business domain alignment, High abstraction, Discoverable, resilient, allows 3rd parties, cross-platform
- Cons - Cleints must handle slow offline network, coarse interfaces, may harm performance, security issues
+ Cons - Cleints must handle slow offline network, coarse interfaces(), may harm performance, security issues
+
+2. MicroService Pattern - Everything is on premise
+     Services calling services
+     can use fast private network
+     Deployed on multiple servers
+   Pros- Highly modular, Reduce abastraction, discoverability and resilient, can use fast network, less coarse interfaces
+   Con - Must cope with slow offline network, more unanticipated communications, hard to do transactions, hard to test, debug, deploy
+   
+  3. Message Bus Pattern - if you have multiple services that all operate samel block of data
+       services connected to shared data bus
+       uses messages for communication
+       supports discovery, failover
+    Pros - Easy to extend, simple communication, very flexible, easy to scale, easy discovery, failover
+    Cons - Bus - Single point of failure, coarse communications, cab ne slow, hard to test, debug
