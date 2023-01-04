@@ -1,0 +1,43 @@
+Visual
+Abstract
+Descriptive
+Standard
+Supports Code Generation
+Supports Reverse Engineering
+
+UML Design Elements
+
+Model - contains views
+Views - Are you looking at the system form the outside(external actors - customers, users, interactors) Internal view
+Diagrams -  
+example 1  diagram - only describes components, which components exist, how they are calling each other and what the interface of the each components are.
+example 2 diagram - call timings, implement a process which methods are getting call and the order
+like this we may have 15-20
+
+UML Models
+Business System Model - Non technical way of looking at the system functionality
+IT System Model - Specific to technology
+
+UML Views
+ Business System : 
+    External View - Looking at the system from the outside - external actors who are communicating with it
+    Internal View - looking at the functionality of the system but now from the inside of the system.
+    
+ IT System
+    Static View -  which components are there, which layers are there, which classes are there, how they fit together(how to they connect), layer of the stack, order of the stack
+    Dynamic View - How the components call each other,sequence of calls,  what kind of business process and workflows does the sytem implements, what kind of choices does the system make it goes through specific usage.
+    
+    Seven Diagram
+         Component Diagram - Describes all the components in the system and their public interfaces
+and how one component call another components
+  Class Diagram - Describes which classes exist in the system, how classes are compose of all other classes, all the inheritance hierarchy works, public members of the classes.
+  Sequence Diagram - Describes how one class of components calls other class of components when it makes sequence of calls(when 10 calls  - sequence of calls what kind of data exchange between the objects)
+  
+State Diagram - Describes all descrete states, state transmissions
+Activity Diagram - Describes highlevel procedures and workflows in the system
+Layer Case Diagram - Describes the areas of concern, hwo the layer call each other
+Use Diagram - Very high level
+
+
+
+
