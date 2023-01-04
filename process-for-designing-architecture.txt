@@ -1,0 +1,52 @@
+1. The process for Designing Architecture
+Create/adjust objectives
+  #Identify scope of architecture
+  #Estimate time to spend
+  #identify audience -> depends who you talk to whether it is functional analyst(usecase diagram), executives(usecase diagram), lead developer(compomnetn, class diagram)
+  #identify technical-, usage- and deployment constraints -> which technologies available, which technology vitals to company, existing technology, how many peoepls are going to use, is it going to be cloud or premisis server e.t..c
+  
+2. Identify key scenarios
+    Key Scenarios
+       Significant unknown/risk
+       Significant use case
+       Intersection() of quality/fnction
+       Tradeoff between attributes
+    Significant use cases:
+       Busines critical
+       High Impact 
+       
+3. Create Overview
+  Determin Application Type - webapplication/mobile application/ run on cloud
+  Identify Deployment constraints - deploy in cloud, premisis e.t.c.
+  Identify architecture pattern  - which archtiectureal pattern you are going to use, layered architecture, micro services, service orient architecture, pick one of them and commit to it.
+  Determine the technology - which technology which you are going to use.
+  Create a Layer diagram in application overview
+  
+4. Identify Key Issues
+ Quality attributes
+    System/Runtime/Design/User - performance, security, scalability, configurability,                 managibility, modularability e.t.c
+    System wide Concerns
+      Authentiation & authorization
+      Caching
+      Communication
+      Configuration Management
+      Logging & exeception management
+      Validation
+      
+      
+5. Create Candidate Solution
+  #create a baseline architecture - first preview 
+  #create candidate architecture -  second, third... review
+  #Develope architectural Spikes
+  
+  here is where you Create Activity, Sequence, State and Component Diagrams
+  Create Class Diagram if needed
+  
+During above Each Cycle following are few guidelines
+   Donot introduce new risk
+   Mitigate more risk than baseline
+   meet additional requriements
+   Enable more key scenarios
+   Address more key issues
+   
+Start communicating architecture with your developer, when you exceepd 50% coverage
