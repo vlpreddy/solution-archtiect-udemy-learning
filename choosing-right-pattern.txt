@@ -1,0 +1,16 @@
+Layered Pattern
+  Presentation
+    OR Components Layer(Containers, Reuse, 3rd parties, Delcartive rendering(example:wordpress widget system))
+    OR MVC for large UI's
+    OR MVVM if you have data bind
+  Business Layer
+    OR Components(Modular functionality, plugin support, Business entity abstraction, Declaritive configuation-visual workflows, business rules)
+    
+  Data Layer
+    OR Components (Handling diverse data sources, increase abstraction, Delcaritive Configuration- details of database are configured in configuration file)
+  Service layer if you need api
+  
+  Service Layer
+    OR Components (contract management, containers, declaritive configuration)
+    Choose Microservices if your system is composed mostly of interlocking API's
+    Choose MessageBus if all services alter stage on a common message
