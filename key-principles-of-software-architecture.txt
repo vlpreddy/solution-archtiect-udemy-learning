@@ -1,3 +1,4 @@
+Goal of the software architectural Goal - Minimize complexity.
 Seperations of concerns -> talking to a database, presenting user interface to end user - you need to make sure always use sepreate area for single concern
 Single responsibility principle -> objects and components have single responsibility
 Princple of least knowledge - components should have very minimal or no knowledge of whats happening in other components(private and protected)
