@@ -1,0 +1,46 @@
+General Guidleines while designing component architecture
+
+Components are SOLID
+https://github.com/vlpreddy/solid-design-priciples
+    - Single Responsibility
+    - Open/Closed
+    - Liskov Substitution
+    - Interface Segratation
+    - Dependency Inversion
+ 
+ Highly Cohesive
+ No knowledge of internals of other components
+ 
+ Presentation Layered Components
+     - UI Components
+     - Presentation Logic
+        views, controllers, view models
+    Optional: Presentation Entitie
+  
+  Service Layered Components
+     - Services
+     - Service Interfaces
+     - Message Types
+  Optional : Service Broker
+  
+  Business Layered Components
+      Business Facade
+      Business logic
+          Components
+          Workflows
+          Business rules
+      Business Entities
+           Populated through ORM
+           or:data obejcts fromd atalayer
+      Business Events(example: webhook)
+  
+  Data Layered Components
+      Data Facade
+      Data source Adapters - specialized classes that could control how your datalayer talk to specific database services
+      Service Adapters - specialised classes that could freelay exchage data bases abd services and data layer treart everythign sa,e
+      Optional : Data Objects, Command and query Objects
+      
+   Modular Architecture
+    Plugin with UI  - Plugin framework contains in both Presentation Layer and Business Layer which actually violates the layered principle to avoid this to create seperate plugins and use some kind of injection
+     Plugin without UI
+        
