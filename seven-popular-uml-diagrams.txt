@@ -30,6 +30,7 @@ The component Diagram
          can be validated
   
  The Use Case Diagram
+ https://www.andrew.cmu.edu/course/90-754/umlucdfaq.html
       Shows actors
       shows use cases
       bliends actors to use cases
