@@ -1,0 +1,9 @@
+liek rest api
+
+1. Service-Oriented pattern - data protocol is xml, communication protocol is soap, these calls go over http, enables thridparty communicates directly
+     Discrete business services
+     use network to communicate
+     HTTP, XML, SOAP, binary, REST
+     services are callable from the internet
+ Pros - Business domain alignment, High abstraction, Discoverable, resilient, allows 3rd parties, cross-platform
+ Cons - Cleints must handle slow offline network, coarse interfaces, may harm performance, security issues
