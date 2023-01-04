@@ -6,3 +6,12 @@ at user interface
        Controller handles interaction
    pros - Strict seperations of concerns, scales well
    Cons - High overhead, scattered code, hard to data-bind
+   
+ 2. MVVM - View, Model, View Mode
+       Derived from MVC pattern
+       View handles output
+       models handles data
+       view model is binding source
+    Pros - Strict seperation of concerns, easy scalability, easy to data bind
+    Cons - High Overhead, scatter doe, controller code is not sperated and mashed into view model.
+      
