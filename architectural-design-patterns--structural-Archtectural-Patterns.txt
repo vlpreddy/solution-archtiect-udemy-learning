@@ -1,0 +1,20 @@
+define the structure of your architecture
+
+1. Components-based Pattern (an application has plugin system we can use this patterns)
+        Components are modular building blocks of software
+        Grouped into areas of concern
+        Clearly described interfaces
+        containers provide additional services.
+   Pros - Easy deployments, Allow 3rd parties, prmote modularity, few unanticipated interactions
+   Cons - Coarse Building blocks, can be expensive, initialization may be slow, harder to develop           and maintain
+ 
+ 2. Object oriented Pattern (lowlevel, you can take up this if you dont have a lead developer if you are only the person who is working, because if you give it to developer you may need to micro manage on how the objects are creating, what objects are creating, how they are communication e.t.c.)
+          Uses Classes
+          Grouped into areas of concerns
+          Describe public members
+          Users Inheritance, composition, aggreation and association
+   Pros - Easy to understand, promotes resuse, easyto test & debug, highly cohesive
+   Cons - Inheritance hard to get right, many unanticipated communications(spegetti of objects calling each other), too detailed.
+   
+  
+          
