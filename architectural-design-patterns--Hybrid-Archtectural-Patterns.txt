@@ -1,0 +1,16 @@
+you can combine patters, you can actually embed one pattern inside another pattern
+
+1. Components in Layers - Quite popular
+        Layer containing components
+        Benefits of components
+        Plus: structured communication, isolation, easy scaling and testing
+        
+ 2. MVC in Presentation Layer
+        Presentation layer with MVC
+        Benefits of layer
+        Plus: seperation of concerns presentation code scalability
+         
+  3. Objects in Components - At the lowest level anything is turning into object oriented pattern, so you are probaly already using
+         Components contain objects
+         Benefits of components
+         Plus : cohesive and extensibility
