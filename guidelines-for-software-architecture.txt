@@ -1,5 +1,21 @@
-Guidelines - which are independent of architecutral design patterns
+GENERAL GUIDELINES - which are independent of architecutral design patterns
   # user consistent patterns in each layer - Don't mix different patters(MVC, MVV). in a single layer like presentation layer, single layer should have single design pattern
   # Do not duplicate functionality - if there is any functionaluty which can be used by multiple layers, don't imolment in all layers, just implement ontime and use it in all layers(Example Caching) in Systemwise concern
   Prefer composition over inhertiance - better try to use composition, agregation, encapsulation  classes instead of using inheritance heirarchy
   Establish a code convention - naming convention, defining variables
+  
+  
+ LAYER GUIDELINES - 
+    # seperate the area of concern(presentation business, database)
+    # Define communication between layerss - you want clearly define communication between layers
+    like what interfaces will it use, which classes will it call, will it call a singleton, will call it specification class e.t.c.(Presentation Layer to Buisness Layer) (Business layer to Data Layer) e.t.c.
+    # Use abstraction to loosely couple layers - Data layer will communinicate sql server database, you don't want to expose these objects to higher layers - when you are working with data types you want to be using generic data types and not sql server specific data types thats because should you  ever decide to exchange sql with oracle and you replace components in data layer which will not going to effect other layers who are communicating with data layer.
+    #Don't mix different types of components in a layer - dont add presentation components in business layer, dont add business components in data layer,  so make sure you write component specific to each layer but not belong to that layer
+    # Use a consistent data format within layer - data layer will be responsibile to communicate with database, services what ever you use to store the data. you could use data tables, object arrays, xml e.t.c so  make a choice and stick to one of them.
+    
+COMPONENTS GUIDELINES
+   #No component should rely on the internals of another - you only allow to use public interfaces to have one components call another components.
+   # Do not mix roles in a single components - you don't want one component that can render its self to the screen, and connects to the database and implemnts soap connection which is terrible, make sure single component has single responsbility.
+   # Define clear contracts for components - define public interfaces what kind of public fields and properties are accesible on the components
+   # Abstract system wide components away from other layers (example cache)
+    
