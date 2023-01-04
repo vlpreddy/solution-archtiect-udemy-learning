@@ -10,3 +10,15 @@ Structural Elements, Collaboration    Sequence Diagram
 Areas of Concern                      Layer Diagram
 
 
+UML DESIGN STRATEGIES
+UML as Skectch
+UML as Blueprint  - this design is extremely detailed
+    Forward Engineering : use diagram to generate code
+    Reverse Engineer : build diagram from existing code
+UML As Validation
+    Validate implementation againist diagram
+    
+Tools For Forward Engineering, reverse Engineering
+1. Visual Studio Ultimate 2017
+
+
