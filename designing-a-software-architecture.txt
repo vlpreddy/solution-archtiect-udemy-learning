@@ -1,0 +1,28 @@
+Software Architecture Requirement
+  User Requirements
+  Business Requirements
+  IT System Requirements
+  
+ What composes an architecture
+   structural elements and inteface composing system
+   how elements behave in collaboration
+   how these elements combine and work as a full feature like tree system
+   architectural style that guides this composition
+   
+   Also covers functionality, usability, resilience, performance, reuse, comprehensibility, economic and technology constraints, tradeoffs and aesthetic concerns.
+   
+   
+Software architecture goals
+    Document high-level structure
+    donot go into implementation details
+    minimize complexity
+    Address all requirements
+    Be compatible with all use cases and scenarios
+  
+  
+  Tips
+   Build to change instead of building to last -  create something felxibility and modularize the architecture
+   Use models, but inly to analyze and reduce risk
+   use visualizations to communicate and collaborate
+   identify and research critical points of failure - performance, scaling, e.t.c
+   
