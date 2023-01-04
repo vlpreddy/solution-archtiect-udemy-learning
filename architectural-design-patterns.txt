@@ -1,0 +1,22 @@
+Layer Archtectural Patterns
+    1. Client/Server Pattern  - Example :  Web Server
+          #distinct client and server
+          #sperated by network
+          #communication protocol
+          #many clients one server
+       Pros - very secure, simple communication, centralized control, easy to manage
+       Cons - Requires network, difficulst to scale out, single point of failure, hard to debug
+     
+     2. Layer Pattern
+           - Strict areas of concnern
+           - Layers can communicate with direct neighbours of above and below
+        
+        Pros - High Abstration, High Isolation, Structured Communication, Easy to Scale out
+        Cons - Deep Call Chains, Can hide complexity, may harm performance, lowest layer must             cover all user cases.
+     
+     3. N-Tier Pattern 
+            - Layers Deployed to servers
+            - Usually 3 tiers
+            - Communication between layers uses network
+       Pros - High abstraction, high Isolation, Structured Communciation, Easy to scale out
+       Cons - Network - point of failure, network may be slow, coarse interfaces, hard to debug
