@@ -1,0 +1,38 @@
+The component Diagram
+  Shows Components
+  Shows Implemented and requried interfaces
+  Components can be nested
+  
+ The class diagram
+   Show Classes
+   Shows MEthods and fields
+   Shows Associations, generalization and cardinality
+ 
+ The Sequence Diagram
+     Shows call Sequence
+     shows calling class, called method, and return datatype
+     can depict loops
+ The state Diagram
+       Shows states or activities
+       shows allowed transitions
+       can be nested
+       can depict internal activities
+ The activity diagrams - modern succesor of flow chart
+         shows process or workflow
+         can be nested
+         can show concurrent actions
+         can have swim lanes
+    
+ The layer Diagram
+         Non-standard, invented by MS
+         shows areas of concern
+         shows reference betweeen areas
+         can be validated
+  
+ The Use Case Diagram
+      Shows actors
+      shows use cases
+      bliends actors to use cases
+      can depict generalizations
+       
+      
