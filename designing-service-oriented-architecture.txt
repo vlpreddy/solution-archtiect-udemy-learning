@@ -1,0 +1,69 @@
+Rest Versus Soap Services
+
+Rest Service
+    - CRUD Operations
+    - Operates and Entities
+    - JSON/XML/HTML/MARKDown
+    - Low Overhead
+    - Request/Response
+    
+    - No Discovery
+    - Incomplete Standard
+ 
+ SOAP Service
+     - Any operations
+     - Not limited to Entities
+     - XML
+     - High Overhead
+     - Request/ Response, Fire & Forget, Bi-Directional calls
+     - Standard discovery & routing
+     - World Standard
+     
+  Designing process for service 
+       - Define data & message
+            # Deicde which type of call you want to make whether it is fire & forger or request/response
+            # based on above choice you can send command, query, document, entity, event message(which type of data)
+            # Avoid large Messages
+            # Add expiration and diagnostic info
+           define all these in UML class diagram
+
+       - Define Service contracts
+           # Decude whether you want use CRUD OR RPC
+           # stateful/stateless
+           # Transaction Management
+           # Handling Invalid calls (timeouts, duplicate calls. calls out of order)
+         define in component diagram
+         
+       - Plan exception handlng
+            # Only catch what you can handle
+            # use meaningful messages
+                 -Business Explanition
+                 -Technical information
+                 -Retry instrctions
+            # Return fault metatdata
+            # Log Everything - every sigle exceptions
+            # Notify exception subscribers
+            
+       - Define how business entitites are transformed to messages
+              #Transform entities to messages
+                   -Reference Business layer directly
+                   -use an obect mapper
+                   -use an object-relational mapper
+                   -use a transform language
+                   -custom built
+              #consideration
+                  -Narrow/Widening transforms
+                  -Flattening/Elevating transforms
+                  -Reversible transforms
+                  
+       - Define how buiness functions are abstracted to services
+              # Buesiness Layer abstractions
+                  -call the Facade direclty
+                  -call business components
+                  -start a workflow
+                  -log a business layer event
+              # consideration;
+                  - Long-running workflows
+                  -state management
+                  -transactions
+ 
