@@ -1,0 +1,5 @@
+Seperations of concerns -> talking to a database, presenting user interface to end user - you need to make sure always use sepreate area for single concern
+Single responsibility principle -> objects and components have single responsibility
+Princple of least knowledge - components should have very minimal or no knowledge of whats happening in other components(private and protected)
+Don't repeat youself -> there should be one cache for all components so they can be access system wide means all components can access the cache
+Minimize upfront design -> try to design small compact minimalistic spcification, while dev team started coding you can work on remaining design but you need to have a holistic idea of applicaion. Identify minimum percentage of architectural design so that the developers can work whether it is 10%, 30% or 50% and then polish it and give it to developers
