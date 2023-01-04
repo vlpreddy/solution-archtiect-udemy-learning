@@ -1,0 +1,5 @@
+Guidelines - which are independent of architecutral design patterns
+  # user consistent patterns in each layer - Don't mix different patters(MVC, MVV). in a single layer like presentation layer, single layer should have single design pattern
+  # Do not duplicate functionality - if there is any functionaluty which can be used by multiple layers, don't imolment in all layers, just implement ontime and use it in all layers(Example Caching) in Systemwise concern
+  Prefer composition over inhertiance - better try to use composition, agregation, encapsulation  classes instead of using inheritance heirarchy
+  Establish a code convention - naming convention, defining variables
