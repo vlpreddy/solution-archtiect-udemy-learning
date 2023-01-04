@@ -1,0 +1,22 @@
+Logical Layered architecture Design
+
+
+Determin which layer
+  loose interactions
+  strict interactions
+
+Layer Strategy
+   Logical Seperation
+   Physical Seperation
+ 
+ Remove and merge Layes
+    Application without API
+        Presentation - Business- Data
+    API with merged layer
+        services - Business and Data 
+  
+Identifying sytemwide concerns(caching)
+
+Define Layered Interfaces
+  Public Interfaces
+  Facade Component
