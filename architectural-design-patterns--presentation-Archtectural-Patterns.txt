@@ -1,0 +1,8 @@
+at user interface
+1. MVC Pattern
+       Designed for presentation layers
+       View handles output
+       Model handles data
+       Controller handles interaction
+   pros - Strict seperations of concerns, scales well
+   Cons - High overhead, scattered code, hard to data-bind
