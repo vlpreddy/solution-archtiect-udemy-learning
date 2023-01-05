@@ -1,0 +1,41 @@
+What to cache
+  UI Pages
+  UI Components
+  Service Output
+  Business Entities
+  business Stage
+  Data query results
+  configuration data
+  
+  list data to be captured in each layer
+  
+  
+Where to cache
+     Local memory - super fast
+     stage server - if cache needs to be shared between layers
+     file system - does not support atomic transactions
+     database - slowest
+     
+     use standard solutions like .net cache, redis, Memcached e.t.c
+     
+ How to Manage the Cache
+    Expiration strategy
+        Time-based
+        Event-based
+    Flushing strategy
+         Manual
+         Automatic
+            Least recently used
+            Least frequently used
+            Priority
+ 
+ How to Fill cache
+     Proactive Loading
+         Static data
+         known update frequency
+         kniwn size
+     Reactive loading
+         Volatile data
+         unknown lifetime
+         large data volume
+         fast caching medium
