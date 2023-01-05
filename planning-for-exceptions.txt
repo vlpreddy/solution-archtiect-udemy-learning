@@ -1,0 +1,39 @@
+Exception Strategies
+    Allow to propogate
+    Catch and Rethrow - temoorariy intercept the exception do something and pass it on
+       Loggin
+       Retains stack trace
+    Catch, wrap and throw
+       Add metatdata
+       Expose consitent exception types
+    Catch and Discard - not recoemended
+    
+ Presentation Layer Exceptions 
+      Catch, Display and Discard 
+      Attempt to retry
+      Switch to secondary system
+      Alert by Email, SMS, Slack
+      User Meaningful images
+           Business explanition
+           Technical information
+           Steps to resolve
+   
+ Service Layer Exceptions
+     Catch and rethrow
+     attempt to retry
+     switch to secondary system
+     log exeption and input message
+ 
+ Business Layer Exceptions
+      catch, wrap and throw
+      use custom exception types
+      provide business context
+      rollback transactions
+      log exception and input args
+      Broadcast to subscribers
+ 
+ Data Later Exceptions
+      catch and re-throw
+      log exception and input query
+     
+ 
