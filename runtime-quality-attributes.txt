@@ -1,0 +1,71 @@
+Availability
+    Tier failover
+    use rate limiter - limit the number of calls to control the hackers
+    short-lived resoucess locks
+    recover from exceptions - Make sure that the error bounds to single component but no the entire 
+    Tier system, so it will avoid crashing the whole system
+    update-friendly architecture
+    handle network faults
+       offline support
+       buffered proxy
+ 
+ Interoperability
+   Data transformation
+   Keep systems seperate
+   Adhere to standard:
+      SOAP
+      REST
+      XML/JSON
+ 
+ Managebility
+     Health monitoring, logging and diagnostic tracing
+     consider aplugins system
+     declarative configuration
+     Add diagnostic tools
+         live tracing
+         diagnostic notification
+         runtime log insepction
+         in-situ degugging  - 
+ 
+Performance
+      Buffer Proxy
+      Asyn responses
+      load balanced tiers
+      caching
+      load tests
+      minimize throghput
+          Rate limiting
+          designign coarses interfaces
+          minimize cache misses
+  
+Reliability
+      self-healing architecture - if tier goes down, it will reroute it another tier whch works
+      use store and forward - message goes into buffer if no response and this buffer goes to another tier
+      use alternative system if
+           primary system is offline
+           primary system is very slow
+           primary output is valid
+       Replay messsages when external resouces come back online
+       
+Scalability
+        tier scaling
+            scale up
+            scale out
+   handling load spikes
+        Async responses
+        store and forward
+        allow stale data
+        
+Security
+    authenticate and autorize clients
+    validate input and output
+    encrypt sensitive data
+    protect against
+       spoofing
+       malicisous input and output
+       malicisous use
+       data theft
+       DDoS attacks
+            
+      
+
