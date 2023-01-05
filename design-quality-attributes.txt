@@ -1,0 +1,44 @@
+Conceptual Integrity
+    isolated layers and components
+    Application lifecycle management
+    Healthy team collaboration
+    Design and coding standards
+    Break away from legacy designs:
+        Facade Pattern
+        Wrap as service
+        Rebuild from scratch
+ 
+ Maintainability
+    Isolated layers and components
+    strcutred commuciation
+    consider a plugin system
+    rely on platform features
+    use systemwide layer
+    add unit tests
+    documentation
+    
+ Reusability
+    Component-based strcutred
+    adhere to standards
+    general-purpose code
+    allow 3rd party
+    use a plugin system
+    use systemwide layer
+    
+  Testability
+     Design for testing
+     Allow Mocking
+     Cover all Layers
+     Automate case studies
+     Test:
+        Individual components
+        Entire layers
+        Collaboration between layers
+        Load- to see how your system behave under pressure, security
+   
+   Usability
+      Elegant add simple UI
+      Implements all case stsudies in minimal number of interactions
+      clear multi-step workflows
+      intutitive feedback
+      non-technical
