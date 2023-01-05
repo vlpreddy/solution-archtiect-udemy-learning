@@ -1,0 +1,52 @@
+Deployment Models
+    Monolithic - tier(presentation layer, business layer, datalayer) communcicated with tier2 (data layer)
+    Distributed - tier(presentation layer) communicated with tier 2(Business layer, datalayer) - awesome scalibiliy
+    
+
+Distributed Deployment Guidelines
+         Minimize blocking calls
+              Async Calls
+              One way calls a- it doesnt care what happens to the call
+              Buffering - layer calls to another layer and it places call into buffer, it waits and                   recals until the second layer is onlin
+          Use Distributed transactions - Its quite difficult to implement-  windows has distribution               transaction corodinator
+          Use coarse-grained interfaces - you donot want to chatty calls between layers over slow                 network, so high level calls, few calls with lots of time in between
+          Manage State
+                -Stateless design -hihgly scalable
+                -Stateful design - supports workflow but doesnt scale
+                -Shared state server -  external state server use memory so its fast, it lives on ESP                    and endpoints, it can be calls from different tiers so tiers can share information                      among them
+              
+  Deploy for performance
+        Buisness/Data layers scale out
+        Can detect failed tiers
+        stateless design prefered
+        stateful design requirements
+            Shared state server
+            session affinity
+            
+  Deeploy for Reliability - it requires twice the amount of hardware.
+      Secondary tier takes over when the primary tier fails
+      requires 2x hardware
+      Synchronization considerations
+          Sync when secondary tier activate
+          or:allow stale data - to see old data if the end. use ok with that.
+          
+ Deploy for scalability - if you can get away with unsynchronize data you can use this model
+      Data replicated on multiple tuers
+      Replication breaks consistency and atomicity
+      Consistency considerations
+           Delayed sync in background
+           or:allow stale data
+           or: alow partition data
+           
+  Scaling strategies
+  
+ Scale up
+   Easy with VM
+   but limited results
+   
+   
+ Scale out
+    Requires layer design
+    Requireds partition data
+    Potentially inlimited
+    
